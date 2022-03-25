@@ -11,6 +11,6 @@ def main(a,b,c):
     mx=a 
     if mx<b:
         mx=b
-    elif mx<c:
+    if mx<c:
         mx=c    
     return mx
