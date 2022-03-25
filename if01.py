@@ -14,4 +14,3 @@ def main(a,b,c):
     elif mx<c:
         mx=c    
     return mx
-print(main(-5,-4,-6))    
