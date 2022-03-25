@@ -24,4 +24,3 @@ def main(n):
     if n5>mx:
         mx=n5            
     return mx
-print(main(12945))    
