@@ -15,9 +15,8 @@ def main(n):
     n4=n%10
     n5=n//10
     mx=n1
-    idx=0
-    if n1>mx:
-        idx+=1
+    idx=1
+    
     if n2>mx:
         idx+=1
     if n3>mx:
