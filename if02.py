@@ -11,7 +11,6 @@ def main(a,b,c):
     mn=a
     if mn>b:
         mn=b
-    elif mn>c:
+    if mn>c:
         mn=c
     return mn
-print(main(12,44,2))    
